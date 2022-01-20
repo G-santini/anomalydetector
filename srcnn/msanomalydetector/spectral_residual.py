@@ -25,11 +25,9 @@ POSSIBILITY OF SUCH DAMAGE.
 """
 
 import pandas as pd
-import numpy as np
 
 from msanomalydetector.util import *
-import msanomalydetector.boundary_utils as boundary_helper
-from msanomalydetector._anomaly_kernel_cython import median_filter
+import msanomalydetector as boundary_helper
 
 
 class SpectralResidual:

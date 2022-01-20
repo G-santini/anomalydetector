@@ -1,6 +1,6 @@
 import bisect
 import numpy as np
-from msanomalydetector._anomaly_kernel_cython import median_filter
+from srcnn.msanomalydetector._anomaly_kernel_cython import median_filter
 
 
 # pseudo - code to generate the factors.

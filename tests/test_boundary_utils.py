@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from msanomalydetector import boundary_utils
+from srcnn.msanomalydetector import boundary_utils
 
 
 class TestBoundaryUnit(unittest.TestCase):
@@ -79,8 +79,8 @@ class TestBoundaryUnit(unittest.TestCase):
     def test_calculate_anomaly_score(self):
         self.assertAlmostEqual(boundary_utils.calculate_anomaly_score(10, 15, 5, False), 0)
         self.assertAlmostEqual(boundary_utils.calculate_anomaly_score(10, 15, 5, True), 0.5)
-        self.assertAlmostEqual(boundary_utils.calculate_anomaly_score(10+1e-5, 10, 1, True), 0.005884191895350754)
-        self.assertAlmostEqual(boundary_utils.calculate_anomaly_score(10+1e-7, 10, 1, True), 5.884191859812512e-05)
+        self.assertAlmostEqual(boundary_utils.calculate_anomaly_score(10 + 1e-5, 10, 1, True), 0.005884191895350754)
+        self.assertAlmostEqual(boundary_utils.calculate_anomaly_score(10 + 1e-7, 10, 1, True), 5.884191859812512e-05)
 
 
 if __name__ == '__main__':

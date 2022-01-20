@@ -25,11 +25,9 @@ POSSIBILITY OF SUCH DAMAGE.
 """
 
 import os
-from srcnn.competition_metric import get_variance, evaluate_for_all_series
+from srcnn.competition_metric import evaluate_for_all_series
 import time
-import json
 import argparse
-from msanomalydetector.spectral_residual import SpectralResidual
 from srcnn.utils import *
 
 

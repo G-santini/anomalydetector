@@ -1,10 +1,8 @@
 import pandas as pd
-from msanomalydetector import SpectralResidual, DetectMode
-import matplotlib
+from srcnn.msanomalydetector import SpectralResidual, DetectMode
 import matplotlib.pyplot as plt
 import logging
 from azureml.core.run import Run
-import os
 
 
 def log_plot_result(input_df, output_df, col_name, mode):

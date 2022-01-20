@@ -28,7 +28,7 @@ import argparse
 from srcnn.utils import *
 import os
 import time
-from msanomalydetector.util import average_filter
+from srcnn.msanomalydetector import average_filter
 
 
 class gen():

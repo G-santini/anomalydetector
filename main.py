@@ -1,5 +1,5 @@
-from msanomalydetector import SpectralResidual
-from msanomalydetector import THRESHOLD, MAG_WINDOW, SCORE_WINDOW, DetectMode
+from srcnn.msanomalydetector import SpectralResidual
+from srcnn.msanomalydetector import THRESHOLD, MAG_WINDOW, SCORE_WINDOW, DetectMode
 import os
 import pandas as pd
 

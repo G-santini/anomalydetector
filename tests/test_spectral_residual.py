@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 import numpy as np
-from msanomalydetector import SpectralResidual, DetectMode
+from srcnn.msanomalydetector import SpectralResidual, DetectMode
 
 
 class FunctionalyTest(unittest.TestCase):
