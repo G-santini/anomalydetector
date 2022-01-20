@@ -25,10 +25,10 @@ POSSIBILITY OF SUCH DAMAGE.
 """
 
 import argparse
-from srcnn.utils import *
+from utils import *
 import os
 import time
-from srcnn.msanomalydetector import average_filter
+from msanomalydetector import average_filter
 
 
 class gen():
